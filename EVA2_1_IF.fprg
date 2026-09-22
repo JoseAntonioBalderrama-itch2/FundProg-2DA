@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="EVA2_1_IF"/>
+        <attribute name="authors" value="bisonte"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-09-21 06:34:41 p. m."/>
+        <attribute name="created" value="Ymlzb250ZTtERVNLVE9QLTk2U0tUNFM7MjAyNi0wOS0yMTswNjoxMTo1NyBwLiBtLjszMzAx"/>
+        <attribute name="edited" value="Ymlzb250ZTtERVNLVE9QLTk2U0tUNFM7MjAyNi0wOS0yMTswNjozNDo0MSBwLiBtLjsxOzM0MDc="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="edad" type="Integer" array="False" size=""/>
+            <output expression="&quot;Cual es tu edad?&quot;" newline="True"/>
+            <input variable="edad"/>
+            <if expression="edad &gt;= 18">
+                <then>
+                    <output expression="&quot;PUEDES ENTRAR&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;NO PUEDES ENTRAR&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
